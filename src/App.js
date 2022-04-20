@@ -3,6 +3,8 @@ import './App.css';
 
 function App() {
 
+  // Ejemplo antes de usar Redux Toolkit
+
   const counter = useSelector((state) => state.counter);
   const dispatch = useDispatch();
 
